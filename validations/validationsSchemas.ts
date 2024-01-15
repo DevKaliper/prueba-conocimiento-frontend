@@ -6,8 +6,8 @@ const fechaMaxima = new Date(); // Fecha de hoy
 export const formSchema = z.object({
   name: z
     .string()
-    .min(4, {
-      message: "El nombre debe ser de al menos 4 caracteres",
+    .min(3, {
+      message: "El nombre completo es requerido",
     })
     .max(200, {
       message: "El nombre debería de ser de menos de 200 caracteres",
