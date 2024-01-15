@@ -15,3 +15,9 @@ export interface InputInterface {
 }
 
 
+export interface FormularioProps {
+    setUsers: React.Dispatch<React.SetStateAction<InputInterface[]>>;
+    users: InputInterface[];
+  }
+
+

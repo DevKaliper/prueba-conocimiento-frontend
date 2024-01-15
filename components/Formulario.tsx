@@ -8,12 +8,8 @@ import { Textarea } from './ui/textarea'
 import { Button } from './ui/button'
 import { useForm } from 'react-hook-form'
 import { formSchema } from '@/validations/validationsSchemas'
-import { InputInterface, InputsType } from '@/types/types'
+import { FormularioProps, InputInterface, InputsType } from '@/types/types'
 
-interface FormularioProps {
-    setUsers: React.Dispatch<React.SetStateAction<InputInterface[]>>;
-    users: InputInterface[];
-  }
 
 const  Formulario: React.FC<FormularioProps> = ({setUsers, users}) => {
     const { register, handleSubmit, formState:{errors}} = useForm<InputsType>({
