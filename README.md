@@ -49,3 +49,19 @@ ChadCn para los componentes de estilos
 </li>
 </ul>
 
+---
+## Vista Previa
+
+![image](https://github.com/DevKaliper/prueba-conocimiento-frontend/assets/122651755/894eb989-2705-43d8-af94-94761ba8e06b)
+
+<hr>
+
+![image](https://github.com/DevKaliper/prueba-conocimiento-frontend/assets/122651755/d415a026-fdf8-4605-a3b2-5a9c91ba5e43)
+
+<hr>
+
+![image](https://github.com/DevKaliper/prueba-conocimiento-frontend/assets/122651755/025109c3-aac1-49b9-a035-c7d97c0cde3b)
+
+
+
+
