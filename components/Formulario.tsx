@@ -20,8 +20,6 @@ const  Formulario: React.FC<FormularioProps> = ({setUsers, users}) => {
         resolver:zodResolver(formSchema)
     })
     
-    console.log(errors);
-
   return (
   
         <form onSubmit={handleSubmit(data=>{setUsers([...users, data])})} className=' w-3/4 xl:w-1/2 h-auto flex flex-col justify-center items-center'>
