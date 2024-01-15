@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import CardUsuario from './CardUsuario'
 import { InputInterface } from '@/types/types'

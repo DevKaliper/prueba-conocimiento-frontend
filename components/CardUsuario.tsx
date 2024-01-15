@@ -1,3 +1,4 @@
+"use client";
 import { InputsType } from '@/types/types'
 import { calcularEdad } from '@/utils/calcularEdad'
 import React from 'react'
